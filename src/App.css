@@ -112,6 +112,9 @@ footer {
     margin-left: 0;
     padding: 0;
   }
+  .game section p {
+    font-size: 13px;
+  }
   h1 {
     font-size: 32px;
     margin: 10px;
