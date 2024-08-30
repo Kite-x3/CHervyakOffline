@@ -1,0 +1,6 @@
+.apple {
+  width: 32px;
+  height: 32px;
+  background: url(../../assets/passanger.png) center / cover no-repeat;
+  position: absolute;
+}

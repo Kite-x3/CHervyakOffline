@@ -1,0 +1,38 @@
+.cherv {
+  position: relative;
+  background: transparent;
+  width: 32px;
+  height: 32px;
+}
+
+.cherv::before {
+  position: absolute;
+  background: rgb(243, 193, 96);
+  content: '';
+  width: 22px;
+  height: 22px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 7px;
+  border: 1px solid black;
+}
+
+.cherv::after {
+  position: absolute;
+  background: rgb(0, 0, 0);
+  content: '';
+  width: 3px;
+  height: 3px;
+  top: 40%;
+  left: 33%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  box-shadow: 11px 0 black;
+}
+
+.chervHead {
+  background: url(../../assets/ChervHead.png) center / contain no-repeat;
+  width: 32px;
+  height: 32px;
+}

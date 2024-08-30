@@ -1,0 +1,22 @@
+.controll {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  padding: 5%;
+  align-items: center;
+  gap: 140px;
+}
+.controll div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.controll div button {
+  aspect-ratio: 1/1;
+  width: 50px;
+}
+
+.controll div:nth-child(2) {
+  flex-direction: column;
+}
